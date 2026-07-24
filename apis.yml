@@ -1,9 +1,27 @@
 aid: cajal-technologies
 name: Cajal Technologies
-description: Cajal Technologies is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cajal Technologies (Cajal) is a San Francisco-based Y Combinator (W26) company scaling
+  formal verification to accelerate scientific discovery. Its multi-agent system, Tau,
+  collaborates to discover and verify new mathematical proofs in Lean, deploying AI
+  mathematicians across high-impact applied domains starting with quantum computing and
+  finance. Tau verifies compiled binaries with mathematical certainty down to the machine
+  level. Cajal also partners with frontier AI labs and research institutes to improve their
+  systems through datasets, evals, and RL environments, and open-sources tooling such as
+  Talos, a Wasm interpreter written in Lean designed for reasoning.
 url: https://raw.githubusercontent.com/api-evangelist/cajal-technologies/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://caj.al/og-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +30,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Formal Verification
+- Artificial Intelligence
+- Mathematics
+- Lean
+- Quantum Computing
+- Finance
+- Developer Tools
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: VulnerabilityDisclosure
+  url: security/cajal-technologies-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/cajal-technologies-domain-security.yml
+- type: Website
+  url: https://caj.al
+- type: Blog
+  url: https://caj.al/blog
+- type: GitHubOrganization
+  url: https://github.com/cajal-technologies
+- type: Support
+  url: https://caj.al/contact
+- type: TermsOfService
+  url: https://caj.al/terms
+- type: PrivacyPolicy
+  url: https://caj.al/privacy
+- type: Security
+  url: https://caj.al/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
